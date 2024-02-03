@@ -1,6 +1,6 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
-const glob = require("glob");
+// const glob = require("glob");
 
 exports.loadCSS = () => ({
   module: {
